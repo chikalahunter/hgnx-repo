@@ -17,9 +17,8 @@ async def get_info(
     current_time = datetime.now(pytz.utc).strftime('%Y-%m-%d %H:%M:%S %Z')
 
     # Get GitHub URLs
-    github_url = 'https://github.com/chikalahunter/hgnx-repo'
-    github_file_url = f'https://github.com/chikalahunter/hgnx-repo/blob/main/Hngx%20first%20task'
-    github_source_url = f'https://github.com/chikalahunter/hgnx-repo/tree/main'
+    github_repo_url = 'https://github.com/chikalahunter/hgnx-repo'
+    github_file_url = 'https://github.com/chikalahunter/hgnx-repo/blob/main/HGNenv/main.py'
 
     # Create the response JSON
     response = {
@@ -28,7 +27,7 @@ async def get_info(
         'current_utc_time': current_time,
         'track': track,
         'github_file_url': github_file_url,
-        'github_source_url': github_source_url,
+        'github_repo_url': github_repo_url,
         'status_code': 200
     }
 
