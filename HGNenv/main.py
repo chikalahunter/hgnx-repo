@@ -18,7 +18,7 @@ async def get_info(
 
     # Get GitHub URLs
     github_repo_url = 'https://github.com/chikalahunter/hgnx-repo'
-    github_file_url = 'https://github.com/chikalahunter/hgnx-repo/blob/main/HGNenv/app.py'
+    github_file_url = 'https://github.com/chikalahunter/hgnx-repo/blob/main/HGNenv/main.py'
 
     # Create the response JSON
     response = {
