@@ -5,7 +5,7 @@ import os
 
 app = FastAPI()
 
-@app.get("/get_info")
+@app.get("")
 async def get_info(
     slack_name: str = Query(..., description="chika ugwu"),
     track: str = Query(..., description="Backend"),
