@@ -1,0 +1,10 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+micros:
+  - name: HGNenv
+    src: HGNenv
+    engine: python3.9
+    primary: true
+    run: uvicorn main:app
+    pulic_routes:
+    -"/*"
